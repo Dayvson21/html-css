@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lexend+Peta:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Mogra&family=Sigmar&family=Teko:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: MediumPurple;
+    background-image: url(imagens/3dimagem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+header{
+    color: rgb(135, 255, 193);
+    background-color: transparent;
+    text-align: center;
+    font-size: 25px;
+    border: none;
+}
+.div1{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+}
+.h1-1{
+    font-size: 80px;
+    color: DarkOrchid;
+    text-shadow: 0px 10px 20px darkmagenta;
+  
+}
+img{
+    border-radius: 25%;
+    border: transparent;
+    box-shadow: 0px 10px 40px DarkOrchid;
+}
+h2{
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px DarkOrchid;
+    background-color: darkviolet;
+}
+form{
+    font-family: "teko";
+    font-size: 30px;
+}
+section{
+    margin-bottom: 5px;
+    background-color: DarkViolet;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px DarkOrchid;
+    border: none;
+}
+input{
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(197, 170, 249);
+    color: BlueViolet;
+    font-size: 18px;
+    outline: none;
+}
+option{
+    outline: none;
+    border-radius: 30px;
+    color: DarkOrchid;
+    background-color:rgb(197, 170, 249);
+}
+select{
+    background-color: rgb(197, 170, 249) ;
+    outline: none;
+    color: DarkOrchid;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+}
+fieldset{
+    border-radius: 20px;
+    outline: none;
+    background-color: transparen
+}
+textarea{
+    border: none;
+    background-color: rgb(197, 170, 249) ;
+    color: BlueViolet;
+    font-size: 17px;
+    outline: none;
+    border-radius: 20px;
+}
+.botao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+button{
+    width: 30%;
+    padding: 10px 0px;
+    margin: 10px;
+    cursor: pointer;
+    background-color:rgb(197, 170, 249) ;
+    color: blueviolet;
+    border: none;
+    border-radius:30px;
+    font-weight: 600;
+    box-shadow: 0px 10px 40px rgb(219, 192, 232);
+}
+footer{
+    padding: 10px;
+    color:rgb(135, 255, 193);
+    font-size: 30px;
+}
